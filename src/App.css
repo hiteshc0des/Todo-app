@@ -1,0 +1,92 @@
+/* .App {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+} */
+
+body {
+  /* background: linear-gradient(155deg, orange 30%, cyan); */
+  background-color: rgb(41, 121, 94);
+  height: 100vh;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.header {
+  background-color: #fff;
+  color: #0f0c29;
+  margin-bottom: 20px;
+}
+
+.adder {
+  width: 400px;
+  margin: 0px auto;
+  position: relative;
+}
+
+.adder input {
+  outline: none;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: linear-gradient(to right, #4c4875c5, #4c4875c5, #4c4875c5);
+  color: white;
+  height: 50px;
+  width: 370px;
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+.adder input:focus,
+.adder input:hover {
+  box-shadow: 0 0 5px rgba(61, 6, 23, 0.849), 0 0 25px rgba(61, 6, 23, 0.945),
+    0 0 50px rgba(61, 6, 23, 0.986), 0 0 100px rgba(165, 21, 67, 0.897),
+    0 0 200px rgba(61, 6, 23, 0.24);
+  transition: all 0.5s ease-out;
+}
+
+.adder span {
+  position: absolute;
+  right: 15px;
+  top: 0;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.8;
+  cursor: pointer;
+  transition: all 200ms;
+  color: white;
+  transition: 0.2s linear;
+}
+
+/* .adder span:hover {
+  transform: rotate(180deg);
+} */
+
+.removeall {
+  padding: 10px;
+  font-size: large;
+  background-color: #fff;
+  border-radius: 9px;
+  border: none;
+  color: #302b63;
+  font-weight: 600;
+}
+.centered-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.removeall:hover {
+  background-color: rgba(255, 0, 0, 0.644);
+  color: #fff;
+}
